@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E98A15;
+}
+
+main {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+.aboutme{
+    display: flex;
+}
+
+.aboutme img {
+    border-radius: 200px;
+    border: 3px solid #003B36;
+    margin-left: 10px;
+}
+
+.paragrafo {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.SocialMidia{
+    text-decoration: none;
+}
+
+
