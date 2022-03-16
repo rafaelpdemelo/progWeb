@@ -1,39 +1,337 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin: 1px;
+    padding: 1px;
+    font-family: "Poppins";
 }
 
-body{
-    background-color: #E98A15;
+body {
+    background-color: #22212C;
 }
 
-main {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+main{
+    padding: 5px;
 }
 
-.titulo {
-    margin-bottom: 10px;
-}
-
-.aboutme{
+.principal{
+    width: 100%;
     display: flex;
+    
+    
+
 }
 
-.aboutme img {
-    border-radius: 200px;
-    border: 3px solid #003B36;
+.containerSideBar {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerContentSide{
+    color: black;
+    margin-left: 20px;
+    width: 83%;
+    
+   
+}
+/* profile ----------------------------------*/
+
+
+.profile {
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #2F2F3B;
+    border-radius: 5px;
+    box-shadow: #1D1C23 5px 5px 10px;
+}
+
+.profile img {
+    margin-top: 10px;
+    margin-left: 90px;
+    height:65%;
+    width: 50%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #6DDF4A;
+}
+
+.about{
+    display: inline-block;
+}
+
+
+.profile .about h1 {
+    color: #6ddf4a;
+    margin-left: 61px;
+}
+
+.profile .about span {
+    font-size: 12px;
+    margin-left: 125px;
+}
+
+/* descriptionList ------------------- */
+
+.descriptionList {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #2F2F3B;
+    border-radius: 5px;
+    box-shadow: #1D1C23 5px 5px 10px;
+}
+
+.ulDescription{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: "Poppins";
+    list-style: none;
+    
+    
+}
+
+.liDescription {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.liDescription span{
+    margin-left: 15px;
+   
+}
+
+.aDescription{
+    text-decoration: none;
+    color: white;
+}
+
+/* Tecnologias ------------------------------- */
+
+.tecnologias{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #2F2F3B;
+    border-radius: 5px;
+    box-shadow: #1D1C23 5px 5px 10px;
+}
+
+.tecnologias h4{
+    
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.tecnologias h2 {
+    margin-left: 85px;
+    font-size: 20px;
+    color: #04d361;
+   
+}
+
+
+.ulTecnologias{
+    padding: 5px;
+    display: grid;
+    grid-template-areas: "Java ReactJS html"
+    "CSS JavaScript iOS";
+    margin-bottom: 10px;
+    justify-content: space-around;
+    
+
+}
+
+
+.java {
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6e07;
+}
+
+.reactjs {
+    justify-content: center;
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6e07;
+}
+
+.html {
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6e07;
+}
+
+.css {
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6e07;
+}
+
+.JavaScript {
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6e07;
+}
+
+.IOS {
+    justify-content: center;
+    width: 60%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6e07;
+}
+/* My Projects -------------------*/
+
+.myProjects {
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #2F2F3B;
+    border-radius: 5px;
+    box-shadow: #1D1C23 5px 5px 10px;  
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;    
+    padding: 10px;
+
+
+}
+
+
+.myProjects h1{
     margin-left: 10px;
 }
 
-.paragrafo {
-    margin-left: 20px;
-    text-align: left;
+.myProjects a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 
-.SocialMidia{
+.aboutApresentation{
+    width: 50%;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #2F2F3B;
+    border-radius: 5px;
+    box-shadow: #1d1c23 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 8px;
+    
+}
+
+.about2Apresentation{
+    width: 50%;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #2F2F3B;
+    border-radius: 5px;
+    box-shadow: #1d1c23 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-right: 8px;
+    
+}
+
+.allProjects{
+    display: flex;
+    width: 100%;
+}
+
+.aboutApresentation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.aboutApresentation2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about1 {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.about2 {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.project1 span {
+    margin-left: 10px;
+}
+
+.description{
+    width: 86%;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.aboutProject{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+
+
+.aboutProject span {
+    margin-right: 170px;
+    font-size: 12px;
+}
+
+
+.tecnologiasProject {
+    display: flex;
+    margin-left: 64px;
+    list-style: none;
     text-decoration: none;
 }
 
+.listaTech2 {
+    margin-left: -160px;
+}
 
+.listaTech3 {
+    margin-left: -158px;
+}
+
+/* --------------- footer */
+
+footer p{
+    color: white;
+    margin-top: 294px;
+    margin-left: 783px;
+}
